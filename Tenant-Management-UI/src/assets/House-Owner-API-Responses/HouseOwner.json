@@ -1,0 +1,64 @@
+{
+	"_id": "196930f9-1729-4d18-9570-e7e9f37d10b8",
+	"houseOwnerId": "196930f9-1729-4d18-9570-e7e9f37d10b8",
+	"houseOwnerDetails": {
+"name": "Rajagurunathan",
+"phone": 9876543210,
+"mailId": "raj@gmail.com",
+"address": "Sowripalayam , CBE",
+"bankAccountNumber": "1234ABCD5678EFGH",
+"ifscCode": "SBIN0007231"
+},
+"houseDetails": [{
+	"_id": "2ef993dd-2134-4164-b05c-f81ae9e2f105",
+	"houseName": "VK Ellai Thottam",
+	"houseAddress": "Gounder Mills, CBE",
+	"rent": 15000,
+	"lastVacatedDate": "2021-12-12",
+	"lastOccupiedDate": "2021-12-12",
+	"advance": 45000,
+	"ebCharge": 2500,
+	"waterCharge": 1000,
+	"isOccupied": true,
+	"bhk": 3
+},
+{
+	"_id": "2ef993dd-2134-4164-b05c-f81ae9e2f105",
+	"houseName": "Vaidhy Illam",
+	"houseAddress": "Tirunelveli",
+	"rent": 15000,
+	"lastVacatedDate": "2021-12-12",
+	"lastOccupiedDate": "2021-12-12",
+	"advance": 45000,
+	"ebCharge": 2500,
+	"waterCharge": 1000,
+	"isOccupied": true,
+	"bhk": 3
+},
+{
+	"_id": "2ef993dd-2134-4164-b05c-f81ae9e2f105",
+	"houseName": "Santhosh Villa",
+	"houseAddress": "PN Pudhur, CBE",
+	"rent": 15000,
+	"lastVacatedDate": "2021-12-12",
+	"lastOccupiedDate": "2021-12-12",
+	"advance": 45000,
+	"ebCharge": 2500,
+	"waterCharge": 1000,
+	"isOccupied": true,
+	"bhk": 3
+},
+{
+	"_id": "2ef993dd-2134-4164-b05c-f81ae9e2f105",
+	"houseName": "Praveen Ghost home",
+	"houseAddress": "Titan City, Hosur",
+	"rent": 15000,
+	"lastVacatedDate": "2021-12-12",
+	"lastOccupiedDate": "2021-12-12",
+	"advance": 45000,
+	"ebCharge": 2500,
+	"waterCharge": 1000,
+	"isOccupied": true,
+	"bhk": 3
+}]
+}
