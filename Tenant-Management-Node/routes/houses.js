@@ -17,7 +17,7 @@ router.get('/getAll/:houseOwnerId', function (req, res) {
     }
     catch (err) {
         res.status(500).send({
-            name: err.name,
+            name: "Error",
             message: "Unknown Error occured"
         });
     }
@@ -39,7 +39,7 @@ router.get('/get/:houseId', function (req, res) {
     }
     catch (err) {
         res.status(500).send({
-            name: err.name,
+            name: "Error",
             message: "Unknown Error occured"
         });
     }
@@ -61,7 +61,7 @@ router.post('/add', function (req, res) {
     }
     catch (err) {
         res.status(500).send({
-            name: err.name,
+            name: "Error",
             message: "Unknown Error occured"
         });
     }
@@ -83,7 +83,7 @@ router.put('/edit', function (req, res) {
     }
     catch (err) {
         res.status(500).send({
-            name: err.name,
+            name: "Error",
             message: "Unknown Error occured"
         });
     }
@@ -105,7 +105,7 @@ router.delete('/delete', function (req, res) {
     }
     catch (err) {
         res.status(500).send({
-            name: err.name,
+            name: "Error",
             message: "Unknown Error occured"
         });
     }
