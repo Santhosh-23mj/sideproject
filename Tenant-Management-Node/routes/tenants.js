@@ -18,7 +18,7 @@ router.post('/add', function (req, res) {
     catch (err) {
         res.status(500).send({
             name: err.name,
-            message: err.message
+            message: "Unknown Error occured"
         });
     }
 });
@@ -40,7 +40,7 @@ router.put('/edit', function (req, res) {
     catch (err) {
         res.status(500).send({
             name: err.name,
-            message: err.message
+            message: "Unknown Error occured"
         });
     }
 });
@@ -62,7 +62,7 @@ router.delete('/delete', function (req, res) {
     catch (err) {
         res.status(500).send({
             name: err.name,
-            message: err.message
+            message: "Unknown Error occured"
         });
     }
 });
