@@ -1,0 +1,48 @@
+                                                        // Navbar
+
+.navbar-brand{
+    font-size:2rem;
+    font-weight:bold;
+}
+#navbar{
+    position :fixed;
+    width:100%;
+    top:0;
+    z-index:1;
+}
+a.right-align{
+    color: #fff;
+}
+                                                          // Cards
+img{
+    height:15.625rem;
+  }
+  
+  h5{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color: #E08E11;
+  }
+  
+  .card-deck{
+    padding: 3%;
+    margin-top: 6rem;
+    position:relative;
+    z-index:0;
+  }
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    cursor: pointer;
+  }
+  
+                                                   //Footer Section
+#footer{
+   // height:2rem;
+    width: 100%;
+    margin-bottom:0px;
+   // margin: 0 0 0 0;
+    text-align: center;
+    color:#fff;
+    padding: 1%;
+}

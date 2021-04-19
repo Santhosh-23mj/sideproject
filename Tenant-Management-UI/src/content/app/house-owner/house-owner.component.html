@@ -1,0 +1,19 @@
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-sm-3 col-sm-3 item">
+      <div class="card item-card card-block" *ngFor="let house of houseDetails">
+        <h4 class="card-title text-right">
+          <i class="material-icons">settings</i>
+        </h4>
+        <img src="../../../assets/Images/House-Owner/Houses/House.jpg" />
+        <h5 class="item-card-title mt-3 mb-3">
+          {{ house.houseName }}
+        </h5>
+        <p>{{ house.houseAddress }}</p>
+        <p>{{ house.house }}</p>
+        <p>{{ house.rent }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
